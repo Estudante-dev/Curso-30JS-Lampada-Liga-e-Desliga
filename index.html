@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lâmpada</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+            <img src="img/desligada.jpg" alt="Lâmpada" id="lampada" />
+        </div>
+
+    </div>
+
+    <div>
+        <button id="lampLigada" onclick="ligarLampada()">Ligar</button>
+        <button id="lampDesligada" onclick="desligarLampada()" class="d-none">Desligar</button>
+        <button id="lampResetar" onclick="window.location.reload()" class="d-none">Resetar</button>
+    </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
